@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+25&family=Lexend:wght@600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" type="image/x-icon" href="../images/logo.png">
+    <title>GonzaTV | Login</title>
+</head>
+<body class="bg-dark">
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand"> <img src="../images/logo.png" style="width:75px"> GonzaTv</a>
+          </div>
+          
+        </div>
+      </nav>
+
+    <div class="container login">
+        <h1 class="text-center mt-5" style="padding-top:10px"> Accedi </h1>
+        <form action="">
+            <div>
+                <label for="">Email</label>
+                <input type="text" class="form-control" required>
+            </div>
+            <div>
+                <label for="">Password</label>
+                <input type="password" class="form-control" required>
+            </div>
+            <input type="submit" class="accedi mb-3 mt-3" value="Accedi">
+        </form>
+    </div>
+    
+    <p style="margin-top:15px" class="text-center personalizzazione"> Oppure <a href="#registrazione">registrati</a> creando un account e scegliendo che tipo di abbonamento si desidera</p>
+
+    
+    <div class="container login mb-5">
+        <h1 class="text-center mt-5" id="registrazione" style="padding-top:10px"> Registrazione </h1>
+        <form action="">
+            <div>
+                <label for="">Nome</label>
+                <input type="text" class="form-control" required>
+            </div>
+            <div>
+                <label for="">Cognome</label>
+                <input type="text" class="form-control" required>
+            </div>
+            <div>
+                <label for="">Email</label>
+                <input type="text" class="form-control" required>
+            </div>
+            <div>
+                <label for="">Password</label>
+                <input type="password" class="form-control" required>
+            </div>
+            <h5 class="mt-3"> Piani </h5>
+            <div class="row">
+                <div class="col-xl-4 col-md-4">
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                          <h5 class="card-title text-dark">Piano Base</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">€4.99/mese</h6>
+                          <h6 class="card-text">Accesso a tutti i contenuti con pubblicità</h6>
+                          <h6 class="card-text">Possibilità di guardare su 1 dispositivo alla volta</h6>
+                          <button type="button" class="btn btn-primary">Sottoscrivi</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                          <h5 class="card-title text-dark">Piano Standard</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">€9.99/mese</h6>
+                          <h6 class="card-text">Accesso a tutti i contenuti senza pubblicità</h6>
+                          <h6 class="card-text">Streaming in HD</h6>
+                          <h6 class="card-text">Possibilità di guardare su 2 dispositivi alla volta</h6>
+                          <button type="button" class="btn btn-primary">Sottoscrivi</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                          <h5 class="card-title text-dark">Piano Premium</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">€14.99/mese</h6>
+                          <h6 class="card-text">Accesso a tutti i contenuti senza pubblicità</h6>
+                          <h6 class="card-text">Streaming in 4K</h6>
+                          <h6 class="card-text">Possibilità di guardare su dispositivi illimitati</h6>
+                          <h6 class="card-text">Download per la visione offline</h6>
+                          <button type="button" class="btn btn-primary">Sottoscrivi</button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            
+            
+            <input type="submit" class="accedi mb-3 mt-3" value="Registrati">
+        </form>
+    </div>
+    <footer>
+        <p class="text-center"><img src="../images/logo.png"> <br> GonzaTV la piattaforma di streaming che contiene tutti i tuoi film preferiti.<br>
+          Per qualsiasi problema o dubbio, non esitare a contattare il nostro <a href="../pages/supporto.html">supporto</a>.
+        </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>

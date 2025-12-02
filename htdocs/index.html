@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+25&family=Lexend:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/x-icon" href="images/logo.png">
+  <title>GonzaTV | Film e show</title>
+</head>
+
+<body class="bg-dark">
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand"> <img src="images/logo.png" style="width:75px"> GonzaTv</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html"> HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/film.html">FILM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/serietv.html">SERIE TV</a>
+          </li>
+        </ul>
+        <button class="accedi"> <a href="pages/login.html">Accedi</a> </button>
+      </div>
+    </div>
+  </nav>
+  <!-- FINE NAVBAR -->
+
+  <!-- INIZIO DELLA HOMEPAGE -->
+  <div class="container">
+    <div id="carouselExampleAutoplaying" class="carousel slide mt-3 selezioni" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/bluey.webp" style="height: 330px;" class="d-block w-100">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Bluey</h5>
+            <p>Cartone animato per la famiglia</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/shogun.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Shogun</h5>
+            <p>Finale di stagione in arrivo</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/wish.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Wish</h5>
+            <p>Una recente ottima produzione della Disney</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/villa.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Vanderpump Villa</h5>
+            <p>Un episodio ogni lunedì</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/mazerunner.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Maze Runner</h5>
+            <p>Famoso film distopico</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/cviuv.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Ci vediamo in un'altra vita</h5>
+            <p>Tratto da una storia vera</p>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <h1 class="text-center text-light mt-5 selezioni">Esplora le creazioni iconiche di questi rinomati studi
+        cinematografici. </h1>
+      <div class="container selezioni">
+        <div class="row mt-2">
+          <div class="col-xl-3 col-md-6 ">
+
+            <div class="card personalizzazione" style="width: 100%;">
+              <a href="#disney"><img src="images/disney.svg.png" class="card-img-top mt-4 scelte" alt="..."></a>
+              <div class="card-body">
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6">
+            <div class="card personalizzazione" style="width: 100%;">
+              <a href="#pixar"> <img src="images/pixar.png" class="card-img-top mt-4 scelte" alt="..."></a>
+              <div class="card-body">
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 col-12">
+            <div class="card personalizzazione" style="width: 100%;">
+              <a href="#dreamworks"> <img src="images/dreamworks.svg.png" class="card-img-top mt-4 scelte"
+                  alt="..."></a>
+              <div class="card-body">
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6">
+            <div class="card personalizzazione" style="width: 100%;">
+              <a href="#bluesky"><img src="images/bluesky.svg" class="card-img-top mt-4 scelte" alt="..."></a>
+              <div class="card-body">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <!-- FILM/SERIE/SITCOM -->
+    <h3 class="text-light mt-4">Animazione per adulti</h3>
+    <div class="row">
+      <div class="col-xl-3 col-md-6">
+
+        <div class="card" style="width: 100%">
+          <img src="images/familyguy.webp" class="card-img-top" alt="...">
+          <div class="card-body personalizzazione">
+            <h5 class="card-title">I GRIFFIN</h5>
+            <p class="card-text">Immergiti nel delirante mondo di Quahog, dove Peter Griffin e la sua eccentrica famiglia affrontano catastrofi quotidiane piene di viaggi nel tempo e battute audaci. Con un bambino genio e umorismo nero, "I Griffin" è una parodia spietata della cultura pop.</p>
+            <a href="" class="btn btn-primary">GUARDA ORA</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6">
+
+        <div class="card" style="width: 100%">
+          <img src="images/americandad.webp" class="card-img-top" alt="...">
+          <div class="card-body personalizzazione">
+            <h5 class="card-title">AMERICAN DAD</h5>
+            <p class="card-text">Scopri le imprevedibili avventure dell'agente CIA Stan Smith e della sua insolita famiglia, compresi un alieno narcisista e un pesce parlante. Questa sitcom offre un umorismo tagliente e scenari assurdi che esplorano le idiosincrasie dell'America moderna.</p>
+            <a href="" class="btn btn-primary">GUARDA ORA</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6">
+        <div class="card" style="width: 100%">
+          <img src="images/simpson.webp" class="card-img-top" alt="...">
+          <div class="card-body personalizzazione">
+            <h5 class="card-title">I SIMPSON</h5>
+            <p class="card-text"> Segui la vita quotidiana di Homer Simpson e della sua famiglia unica a Springfield, dove la satira sociale si intreccia con dilemmi familiari in un contesto di comicità intramontabile. "I Simpson" rimangono un'icona globale dopo oltre tre decenni, provocando risate con il loro humor incisivo.
+            </p>
+            <a href="" class="btn btn-primary">GUARDA ORA</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6">
+        <div class="card" style="width: 100%">
+          <img src="images/futurama.webp" class="card-img-top" alt="...">
+          <div class="card-body personalizzazione">
+            <h5 class="card-title">FUTURAMA</h5>
+            <p class="card-text">Accompagna Fry, un ragazzo del 20° secolo risvegliatosi nel 31° secolo, in un universo futuristico di robot sarcastici e aragoste mediche. "Futurama" è un viaggio comico attraverso il tempo e lo spazio che esplora temi di amicizia, lavoro e amore con spirito sci-fi.</p>
+            <a href="" class="btn btn-primary">GUARDA ORA</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <h3 class="text-light mt-4">Serie da non perderti</h3> 
+      <div class="row">
+        <div class="col-xl-3 col-md-6">
+
+          <div class="card" style="width: 100%">
+            <img src="images/911.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">911</h5>
+              <p class="card-text">Dramma ad alta tensione che esplora le vite complesse e le sfide quotidiane dei primi soccorritori di Los Angeles, inclusi vigili del fuoco, paramedici e poliziotti, che affrontano situazioni di emergenza straordinarie salvando vite umane.</p>
+              <a href="" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6">
+
+          <div class="card" style="width: 100%">
+            <img src="images/greyanatomy.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">GREY'S ANATOMY</h5>
+              <p class="card-text">Un'intensa serie medica che segue Meredith Grey e il team di chirurghi dell'ospedale Grey Sloan Memorial, mentre affrontano drammi personali e professionali, innamoramenti, delusioni e le sfide di una carriera chirurgica ad alto rischio.</p>
+              <a href="" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+
+          <div class="card" style="width: 100%">
+            <img src="images/thewalkingdead.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">THE WALKING DEAD</h5>
+              <p class="card-text">In un mondo devastato da un'apocalisse zombie, un gruppo di sopravvissuti guidato dall'ex vice sceriffo Rick Grimes lotta non solo contro gli infetti, ma anche contro altre comunità di sopravvissuti, spesso più pericolose dei morti stessi.</p>
+              <a href="" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+
+          <div class="card" style="width: 100%">
+            <img src="images/shogun.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">SHOGUN</h5>
+              <p class="card-text">Ambientato nel Giappone del XVII secolo, questa epica serie segue le avventure di un navigatore inglese, naufragato sulle coste giapponesi, che si ritrova coinvolto nelle intricate e pericolose dinamiche politiche dello shogunato.</p>
+              <a href="" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="text-light mt-4">Novità</h3> 
+      <div class="row">
+        <div class="col-xl-3 col-md-6">
+
+          <div class="card" style="width: 100%">
+            <img src="images/wish.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">WISH</h5>
+              <p class="card-text">Una storia fresca e affascinante che promette di portare lo spettatore in un mondo dove i desideri possono diventare realtà con un pizzico di magia.</p>
+              <a href="" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+
+          <div class="card" style="width: 100%">
+            <img src="images/bloodfree.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">BLOOD FREE</h5>
+              <p class="card-text">Jayu, CEO della BF, è minacciata di morte. Il losco Chaewoon si offre di farle da bodyguard.</p>
+              <a href="" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <div class="card" style="width: 100%">
+            <img src="images/tracker.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">TRACKER</h5>
+              <p class="card-text">Un survivalista alle prese con la famiglia in crisi si aggira per il Paese in cerca di ricompense.</p>
+              <a href="" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <div class="card" style="width: 100%">
+            <img src="images/shardlake.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">SHARDLAKE</h5>
+              <p class="card-text">Inghilterra, 1536. Shardlake indaga su una morte in un monastero dove dilagano inganni e corruzione.</p>
+              <a href="" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="text-light mt-4">Film d'animazione</h3> 
+      <div class="row">
+        <div class="col-xl-3 col-md-6">
+
+          <div class="card" style="width: 100%">
+            <img src="images/monster.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">MONSTERS & CO</h5>
+              <p class="card-text">Due mostri incaricati di spaventare i bambini scoprono che forse non sono così spaventosi dopo tutto. Un'avventura divertente e commovente che ribalta ogni aspettativa.</p>
+              <a href="" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <div class="card" style="width: 100%">
+            <img src="images/coco.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">COCO</h5>
+              <p class="card-text">Un giovane musicista viaggia nella terra dei morti per scoprire il vero significato della famiglia e della sua eredità musicale. Una storia commovente che celebra la cultura e le tradizioni.</p>
+              <a href="" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <div class="card" style="width: 100%">
+            <img src="images/planes.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">PLANES</h5>
+              <p class="card-text">Dusty, un aereo agricolo con il sogno di competere come aereo da corsa, scopre il suo vero potenziale e il coraggio di seguire i suoi sogni. Un'avventura ad alta quota per tutto il pubblico.
+              </p>
+              <a href="" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <div class="card" style="width: 100%">
+            <img src="images/rio.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">RIO</h5>
+              <p class="card-text">
+                Blu, un ara macao raro e timido, parte da una tranquilla vita domestica in Minnesota per un'avventura selvaggia a Rio de Janeiro, nel tentativo di salvare la sua specie. Un viaggio esilarante e colorato che celebra l'amore e il coraggio di superare i propri limiti.</p>
+              <a href="" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="text-light mt-4">Un tuffo nel passato</h3>
+      
+      <div class="row">
+        <div class="col-xl-3 col-md-6">
+
+          <div class="card" style="width: 100%">
+            <img src="images/mhpa.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">MAMMA HO PERSO L'AEREO</h5>
+              <p class="card-text">Un giovane ragazzo si trova da solo a casa durante le vacanze natalizie e deve difendere la sua casa da due goffi ladri. Una commedia natalizia piena di ingegno e risate.</p>
+              <a href="" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <div class="card" style="width: 100%">
+            <img src="images/garfield.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">GARFIELD</h5>
+              <p class="card-text">Il gatto più pigro e sarcastico della televisione si lancia in una grande avventura per salvare il suo nuovo amico, Odie. Commedia e azione in una storia irresistibilmente divertente.</p>
+              <a href="" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <div class="card" style="width: 100%">
+            <img src="images/carica101.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">CARICA DEI 101</h5>
+              <p class="card-text">Quando una orda di adorabili cuccioli di dalmata viene rapita, i loro genitori devono salvare il giorno. Una storia emozionante su coraggio e audacia.
+              </p>
+              <a href="" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <div class="card" style="width: 100%">
+            <img src="images/doubtfire.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">MRS. DOUBTFIRE</h5>
+              <p class="card-text">Un padre divorziato si traveste da governante britannica per passare più tempo con i suoi figli. Una commedia esilarante che esplora temi familiari con cuore e umorismo.</p>
+              <a href="" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--<h1 class="text-light mt-5">Per chi adora... </h1>-->
+      <h3 class="text-light mt-4" id="disney">Disney</h3> 
+      <div class="row">
+        <div class="col-xl-3 col-md-6">
+
+          <div class="card" style="width: 100%">
+            <img src="images/wish.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">WISH</h5>
+              <p class="card-text">Una storia fresca e affascinante che promette di portare lo spettatore in un mondo dove i desideri possono diventare realtà con un pizzico di magia.</p>
+              <a href="" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <div class="card" style="width: 100%">
+            <img src="images/librogiungla.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">IL LIBRO DELLA GIUNGLA</h5>
+              <p class="card-text">Mowgli, un ragazzo allevato dai lupi, intraprende un viaggio di scoperta con l'aiuto di alcuni amici animali. Un'avventura affascinante nella giungla ricca di pericoli e meraviglie.</p>
+              <a href="" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <div class="card" style="width: 100%">
+            <img src="images/aristogatti.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">GLI ARISTOGATTI</h5>
+              <p class="card-text">Quando una famiglia di gatti aristocratici eredita una fortuna, un invidioso maggiordomo trama contro di loro. Un elegante viaggio attraverso Parigi con un tocco di jazz.
+              </p>
+              <a href="" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <div class="card" style="width: 100%">
+            <img src="images/aladin.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">ALADDIN</h5>
+              <p class="card-text">Un giovane audace scopre una lampada magica e un genio che può cambiare la sua vita. Un'avventura epica ricca di magia, amore e scoperte.</p>
+              <a href="" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3 class="text-light mt-4" id="pixar">Pixar</h3> 
+      <div class="row">
+        <div class="col-xl-3 col-md-6">
+
+          <div class="card" style="width: 100%">
+            <img src="images/cars.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">CARS</h5>
+              <p class="card-text"> Lightning McQueen, un'auto da corsa ambiziosa, scopre il vero significato della vita e dell'amicizia in una piccola città dimenticata. Un'avventura che insegna l'importanza della comunità.</p>
+              <a href="" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <div class="card" style="width: 100%">
+            <img src="images/toystory.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">TOY STORY</h5>
+              <p class="card-text">I giocattoli prendono vita in questa innovativa storia che esplora i legami tra i giocattoli e il loro proprietario, un bambino di nome Andy. Un viaggio emozionante pieno di amicizia e lealtà.
+                </p>
+              <a href="" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <div class="card" style="width: 100%">
+            <img src="images/insideout.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">INSIDE OUT</h5>
+              <p class="card-text">Viaggia nella mente di Riley, una ragazza che affronta una vita nuova dopo un trasloco. Le sue emozioni, personificate, lottano per guidarla attraverso questo cambiamento. Una storia profonda e illuminante.
+              </p>
+              <a href="" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <div class="card" style="width: 100%">
+            <img src="images/ratatouille.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">RATAOTOUILLE</h5>
+              <p class="card-text">Remy, un ratto con un palato raffinato, sogna di diventare uno chef in una rinomata cucina parigina. Un delizioso mix di avventura e aspirazione.</p>
+              <a href="" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3 class="text-light mt-4" id="dreamworks">Dreamworks</h3>
+      
+      <div class="row">
+        <div class="col-xl-3 col-md-6">
+
+          <div class="card" style="width: 100%">
+            <img src="images/shrek.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">SHREK</h5>
+              <p class="card-text">Un orco scontroso intraprende un'avventura incredibile per salvare la sua amata palude insieme a un asino chiacchierone. Questa storia rovescia tutte le convenzioni delle fiabe in un'esplosione di umorismo e cuore.</p>
+              <a href="" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <div class="card" style="width: 100%">
+            <img src="images/kungfupanda.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">KUNG FU PANDA</h5>
+              <p class="card-text">Po, un panda goffo e appassionato di kung fu, scopre inaspettatamente che è il prescelto destinato a salvare la valle dal male. Una commedia piena di azione e saggezza.</p>
+              <a href="" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <div class="card" style="width: 100%">
+            <img src="images/croods.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">I CROODS</h5>
+              <p class="card-text">Nel cuore di un mondo preistorico stravagante, una famiglia di cavernicoli deve intraprendere un viaggio epico quando la loro casa viene distrutta. Un film sulla crescita e il cambiamento.
+              </p>
+              <a href="" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <div class="card" style="width: 100%">
+            <img src="images/madagascar.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">MADAGASCAR</h5>
+              <p class="card-text"> Un gruppo di animali dello zoo di New York finisce per errore in Madagascar, dove imparano a vivere all'aria aperta. Una divertente avventura sulla scoperta di sé e l'amicizia.</p>
+              <a href="" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3 class="text-light mt-4" id="bluesky">BlueSky</h3> 
+      <div class="row">
+        <div class="col-xl-3 col-md-6">
+
+          <div class="card" style="width: 100%">
+            <img src="images/rio.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">RIO</h5>
+              <p class="card-text">Blu, un ara macao raro e timido, parte da una tranquilla vita domestica in Minnesota per un'avventura selvaggia a Rio de Janeiro, nel tentativo di salvare la sua specie. Un viaggio esilarante e colorato che celebra l'amore e il coraggio di superare i propri limiti.</p></p>
+              <a href="htgTj" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <div class="card" style="width: 100%">
+            <img src="images/rio2.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">RIO 2</h5>
+              <p class="card-text">Blu e Gioiel si avventurano nella giungla amazzonica con i loro figli, incontrando nuovi amici e vecchi nemici in un viaggio vibrante e musicale.</p>
+              <a href="" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <div class="card" style="width: 100%">
+            <img src="images/eraglaciale.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">L'ERA GLACIALE</h5>
+              <p class="card-text">Un mammut, un bradipo e una tigre si uniscono in un'avventura per riportare un bambino umano alla sua famiglia, attraversando un mondo ghiacciato pieno di pericoli e risate.  
+              </p>
+              <a href="" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <div class="card" style="width: 100%">
+            <img src="images/ortone.webp" class="card-img-top" alt="...">
+            <div class="card-body personalizzazione">
+              <h5 class="card-title">Ortone e il mondo dei Chi</h5>
+              <p class="card-text">Ortone l'elefante scopre un microscopico mondo su un granello di polvere e si impegna a proteggerlo, insegnando valori di responsabilità e rispetto per ogni forma di vita, grande o piccola.
+              </p>
+              <a href="" class="btn btn-primary">GUARDA ORA</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      <footer>
+        <p class="text-center"><img src="images/logo.png"> <br> GonzaTV la piattaforma di streaming che contiene tutti i tuoi film preferiti.<br>
+          Per qualsiasi problema o dubbio, non esitare a contattare il nostro <a href="pages/supporto.html">supporto</a>.
+        </p></footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
